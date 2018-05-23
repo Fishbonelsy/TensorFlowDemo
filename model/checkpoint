@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/longsiyang/OceanProject/TensorFlow/model/model.ckpt"
+all_model_checkpoint_paths: "/Users/longsiyang/OceanProject/TensorFlow/model/model.ckpt"
