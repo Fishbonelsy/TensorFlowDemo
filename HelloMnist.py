@@ -44,7 +44,7 @@ def main(_):
     print(type(mnist))
     print(FLAGS.data_dir)
     # Create the model
-    x = tf.placeholder(tf.float32, [None, 784])
+    x = tf.placeholder(tf.float32, [None, 784] , name='input')
     W = tf.Variable(tf.zeros([784, 10]))
     b = tf.Variable(tf.zeros([10]))
     temp = tf.matmul(x, W) + b
